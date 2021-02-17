@@ -1,0 +1,798 @@
+.icon-camera{
+    color: gray;
+}
+a{
+    text-decoration: none;
+}
+@media screen and (min-width:320px){
+    *{
+        padding: 0;
+        margin: 0;
+        border: 0;
+    }
+    /*HEADER*/
+    header{
+        margin-top: .5rem;
+        display: flex;
+        width: 320px;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        background-color: white;
+    }
+    .iconos-izq{
+        display: flex;
+        align-items: center;
+        width: 25%;
+    }
+    .iconos-izq .icon-menu{
+        display: none;
+    }
+    .iconos-izq a{
+        width: 100%;
+    }
+    .iconos-izq  img{
+        width: 100%;
+        margin:0 .8rem;
+    }
+    .formulario{
+        display: flex;
+        align-items: center;
+        width: 60%;
+        justify-content: flex-end;
+    }
+    .formulario img{
+        display: none;
+    }
+    .formulario form{
+        display: flex;
+    }
+    .formulario input[type="search"]{
+        display: none;
+    }
+    .iconos-der{
+        width: 15%;
+    }
+    .iconos-der{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .iconos-der span{
+        padding: .6rem;
+    }
+    .iconos-der .icon-camera, .icon-th-large, .icon-bell{
+        display: none;
+    }
+    /*FIN HEADER*/
+    /*MEDIO*/
+    #contenedor-medio{
+        display: flex;
+        flex-direction: column;
+    }
+    /*FIN MEDIO*/
+    /*ASIDE*/
+    aside{
+        width: 100%;
+        
+    }
+    #sidebar{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        background-color: white;
+        height: 6vh;
+        position: sticky;
+        bottom: 0;
+    }
+    #sidebar .opciones-usu, .suscripciones-yt, .opciones-yt{
+        display: none;
+    }
+    #sidebar div h4{
+        display: none;
+    }
+    .principales{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .principales div {
+        width: 6vw;
+    }
+    /*FIN ASIDE*/
+
+    /*VIDEOS*/
+    #cont-videos{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    #cont-videos article{
+        width: 100%;
+        margin: .6rem;
+    }
+    #cont-videos article img{
+        width: 100%;
+    }
+    article .videos-youtube{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    article .videos-youtube .info-article .perfil{
+       width: 30px;
+       height: 30px;
+       border-radius: 50%;
+       background-color: violet;
+       border: 1px solid black;
+    }
+    article .videos-youtube .info-article{
+        display: flex;
+        margin-top: .2rem;
+    }
+    .info-article h3{
+        font-size: 1rem;
+        text-align: center;
+        margin-left: .3rem;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .videos-youtube span{
+        color: rgba(146, 140, 140, 0.671);
+    }
+    /*FIN VIDEOS*/
+}
+
+@media screen and (min-width:375px){
+    *{
+        padding: 0;
+        margin: 0;
+        border: 0;
+    }
+    /*HEADER*/
+    header{
+        margin-top: .5rem;
+        display: flex;
+        width: 375px;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        background-color: white;
+    }
+    .iconos-izq{
+        display: flex;
+        align-items: center;
+        width: 25%;
+    }
+    .iconos-izq .icon-menu{
+        display: none;
+    }
+    .iconos-izq a{
+        width: 100%;
+    }
+    .iconos-izq  img{
+        width: 100%;
+        margin:0 .8rem;
+    }
+    .formulario{
+        display: flex;
+        align-items: center;
+        width: 60%;
+        justify-content: flex-end;
+    }
+    .formulario img{
+        display: none;
+    }
+    .formulario form{
+        display: flex;
+    }
+    .formulario input[type="search"]{
+        display: none;
+    }
+    .iconos-der{
+        width: 15%;
+    }
+    .iconos-der{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .iconos-der span{
+        padding: .6rem;
+    }
+    .iconos-der .icon-camera, .icon-th-large, .icon-bell{
+        display: none;
+    }
+    /*FIN HEADER*/
+    /*MEDIO*/
+    #contenedor-medio{
+        display: flex;
+        flex-direction: column;
+    }
+    /*FIN MEDIO*/
+    /*ASIDE*/
+    aside{
+        width: 100%;
+        
+    }
+    #sidebar{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        background-color: white;
+        height: 6vh;
+        position: sticky;
+        bottom: 0;
+    }
+    #sidebar .opciones-usu, .suscripciones-yt, .opciones-yt{
+        display: none;
+    }
+    #sidebar div h4{
+        display: none;
+    }
+    .principales{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .principales div {
+        width: 6vw;
+    }
+    /*FIN ASIDE*/
+
+    /*VIDEOS*/
+    #cont-videos{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    #cont-videos article{
+        width: 100%;
+        margin: .6rem;
+    }
+    #cont-videos article img{
+        width: 100%;
+    }
+    article .videos-youtube{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    article .videos-youtube .info-article .perfil{
+       width: 30px;
+       height: 30px;
+       border-radius: 50%;
+       background-color: violet;
+       border: 1px solid black;
+    }
+    article .videos-youtube .info-article{
+        display: flex;
+        margin-top: .2rem;
+    }
+    .info-article h3{
+        font-size: 1rem;
+        text-align: center;
+        margin-left: .3rem;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .videos-youtube span{
+        color: rgba(146, 140, 140, 0.671);
+    }
+    /*FIN VIDEOS*/
+}
+
+@media screen and (min-width:425px){
+    *{
+        padding: 0;
+        margin: 0;
+        border: 0;
+    }
+    /*HEADER*/
+    header{
+        margin-top: .5rem;
+        display: flex;
+        width: 425px;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        background-color: white;
+    }
+    .iconos-izq{
+        display: flex;
+        align-items: center;
+        width: 25%;
+    }
+    .iconos-izq .icon-menu{
+        display: none;
+    }
+    .iconos-izq a{
+        width: 100%;
+    }
+    .iconos-izq  img{
+        width: 100%;
+        margin:0 .8rem;
+    }
+    .formulario{
+        display: flex;
+        align-items: center;
+        width: 60%;
+        justify-content: flex-end;
+    }
+    .formulario img{
+        display: none;
+    }
+    .formulario form{
+        display: flex;
+    }
+    .formulario input[type="search"]{
+        display: none;
+    }
+    .iconos-der{
+        width: 15%;
+    }
+    .iconos-der{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .iconos-der span{
+        padding: .6rem;
+    }
+    .iconos-der .icon-camera, .icon-th-large, .icon-bell{
+        display: none;
+    }
+    /*FIN HEADER*/
+    /*MEDIO*/
+    #contenedor-medio{
+        display: flex;
+        flex-direction: column;
+    }
+    /*FIN MEDIO*/
+    /*ASIDE*/
+    aside{
+        width: 100%;
+        
+    }
+    #sidebar{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        background-color: white;
+        height: 6vh;
+        position: sticky;
+        bottom: 0;
+    }
+    #sidebar .opciones-usu, .suscripciones-yt, .opciones-yt{
+        display: none;
+    }
+    #sidebar div h4{
+        display: none;
+    }
+    .principales{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .principales div {
+        width: 6vw;
+    }
+    /*FIN ASIDE*/
+
+    /*VIDEOS*/
+    #cont-videos{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    #cont-videos article{
+        width: 100%;
+        margin: .6rem;
+    }
+    #cont-videos article img{
+        width: 100%;
+    }
+    article .videos-youtube{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    article .videos-youtube .info-article .perfil{
+       width: 40px;
+       height: 30px;
+       border-radius: 50%;
+       background-color: violet;
+       border: 1px solid black;
+    }
+    article .videos-youtube .info-article{
+        display: flex;
+        margin-top: .2rem;
+    }
+    .info-article h3{
+        font-size: small;
+        text-align: center;
+    }
+    .videos-youtube span{
+        color: rgba(146, 140, 140, 0.671);
+    }
+    /*FIN VIDEOS*/
+}
+@media screen and (min-width:768px){
+    *{
+        padding: 0;
+        margin: 0;
+        border: 0;
+    }
+    /*HEADER*/
+    header{
+        margin-top: .5rem;
+        display: flex;
+        width: 768px;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        background-color: white;
+    }
+    .iconos-izq{
+        display: flex;
+        align-items: center;
+        width: 25%;
+    }
+    .iconos-izq a{
+        width: 70%;
+    }
+    .iconos-izq  img{
+        width: 50%;
+        margin:0 .8rem;
+    }
+    .formulario{
+        display: flex;
+        align-items: center;
+        width: 60%;
+        justify-content: flex-start;
+    }
+    .formulario form{
+        display: flex;
+    }
+    .formulario input[type="search"]{
+        width: 45vw;
+    }
+    .iconos-der{
+        width: 15%;
+    }
+    .iconos-der{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .iconos-der span{
+        padding: .6rem;
+    }
+    .iconos-der .icon-camera, .icon-th-large, .icon-bell{
+        display: none;
+    }
+    /*FIN HEADER*/
+    /*MEDIO*/
+    #contenedor-medio{
+        display: flex;
+        flex-direction: column;
+    }
+    /*FIN MEDIO*/
+    /*ASIDE*/
+    aside{
+        width: 40%;
+        
+    }
+    #sidebar{
+        display: flex;
+        flex-direction: row;
+        width: 768px;
+        background-color: white;
+        height: 6vh;
+        position: sticky;
+        bottom: 0;
+    }
+    #sidebar .opciones-usu, .suscripciones-yt, .opciones-yt{
+        display: none;
+    }
+    #sidebar div h4{
+        display: none;
+    }
+    .principales{
+        display: flex;
+        width: 768px;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .principales div {
+        width: 6vw;
+    }
+    /*FIN ASIDE*/
+
+    /*VIDEOS*/
+    #cont-videos{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #cont-videos article{
+        width: 30%;
+        margin: .6rem;
+    }
+    #cont-videos article img{
+        width: 100%;
+    }
+    article .videos-youtube{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    article .videos-youtube .info-article .perfil{
+       width: 40px;
+       height: 30px;
+       border-radius: 50%;
+       background-color: violet;
+       border: 1px solid black;
+    }
+    article .videos-youtube .info-article{
+        display: flex;
+        margin-top: .2rem;
+    }
+    .info-article h3{
+        font-size: small;
+        text-align: center;
+    }
+    .videos-youtube span{
+        color: rgba(146, 140, 140, 0.671);
+    }
+    /*FIN VIDEOS*/
+}
+
+@media screen and (min-width:1024px){
+    *{
+        padding: 0;
+        margin: 0;
+        border: 0;
+    }
+    /*HEADER*/
+    header{
+        margin-top: .5rem;
+        display: flex;
+        width: 1024px;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        background-color: white;
+    }
+    .iconos-izq{
+        display: flex;
+        align-items: center;
+        width: 25%;
+    }
+    .iconos-izq a{
+        width: 70%;
+    }
+    .iconos-izq  img{
+        width: 50%;
+        margin:0 .8rem;
+    }
+    .formulario{
+        display: flex;
+        align-items: center;
+        width: 60%;
+        justify-content: center;
+    }
+    .formulario form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .formulario input[type="search"]{
+        width: 400px;
+        display: inline;
+        height: 5vh;
+
+    }
+    .iconos-der{
+        width: 15%;
+    }
+    .iconos-der{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .iconos-der span{
+        padding: .6rem;
+    }
+    .iconos-der .icon-camera, .icon-th-large, .icon-bell{
+        display: none;
+    }
+    /*FIN HEADER*/
+    /*MEDIO*/
+    #contenedor-medio{
+        display: flex;
+        flex-direction: column;
+    }
+    /*FIN MEDIO*/
+    /*ASIDE*/
+    aside{
+        width: 40%;
+        
+    }
+    #sidebar{
+        display: flex;
+        flex-direction: row;
+        width: 1024px;
+        background-color: white;
+        height: 6vh;
+        position: sticky;
+        bottom: 0;
+    }
+    #sidebar .opciones-usu, .suscripciones-yt, .opciones-yt{
+        display: none;
+    }
+    #sidebar div h4{
+        display: none;
+    }
+    .principales{
+        display: flex;
+        width: 1024px;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .principales div {
+        width: 6vw;
+    }
+    /*FIN ASIDE*/
+
+    /*VIDEOS*/
+    #cont-videos{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #cont-videos article{
+        width: 30%;
+        margin: .6rem;
+    }
+    #cont-videos article img{
+        width: 100%;
+    }
+    article .videos-youtube{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    article .videos-youtube .info-article .perfil{
+       width: 40px;
+       height: 30px;
+       border-radius: 50%;
+       background-color: violet;
+       border: 1px solid black;
+    }
+    article .videos-youtube .info-article{
+        display: flex;
+        margin-top: .2rem;
+    }
+    .info-article h3{
+        font-size: small;
+        text-align: center;
+    }
+    .videos-youtube span{
+        color: rgba(146, 140, 140, 0.671);
+    }
+    /*FIN VIDEOS*/
+}
+
+@media screen and (min-width:1680px){
+    *{
+        padding: 0;
+        margin: 0;
+        border: 0;
+
+    }
+    
+    /* HEADER */
+    header{
+        margin-top: .5rem;
+        display: flex;
+        width: 1680px;
+        align-items: center;
+        position: sticky;
+
+        background-color: white;
+    } 
+    .icon-th-large, .icon-menu, .icon-camera, .icon-bell{
+        display: inline;
+    }
+    .iconos-izq{
+        display: flex;
+        align-items: center;
+    }
+    .iconos-der{
+        display: flex;
+        align-items: center;
+    }
+     /* fin header*/
+    /*MEDIO */
+    #contenedor-medio{
+        display: flex;
+        flex-direction: row;
+    }
+    /* FIN MEDIO*/
+    
+    /* VIDEOS */
+    main{
+        width: 75%;
+    }
+    
+    /*FIN VIDEOS*/
+    
+    /*ASIDE */
+    aside{
+        width: 5%;
+        float: left;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    #sidebar{
+        display: flex;
+        flex-direction: column;
+        width: 5vw;
+       
+    }
+    .principales{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100% ; 
+    }
+    .principales div{
+        margin: .5rem;
+        width: 8vw;
+    }
+    .icon-fire{
+        display: inline-block;
+    }
+    /*FIN ASIDE */
+    /*VIDEOS*/
+    #cont-videos{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-left: 10rem;
+        
+    }
+    #cont-videos article{
+        width: 30%;
+        display: flex;
+        margin: .6rem;
+    }
+    #cont-videos article img{
+        width: 100%;
+    }
+    article .videos-youtube{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    article .videos-youtube .info-article .perfil{
+       width: 40px;
+       height: 30px;
+       border-radius: 50%;
+       background-color: violet;
+       border: 1px solid black;
+    }
+    article .videos-youtube .info-article{
+        display: flex;
+        margin-top: .2rem;
+    }
+    .info-article h3{
+        font-size: small;
+        text-align: center;
+    }
+    .videos-youtube span{
+        color: rgba(146, 140, 140, 0.671);
+    }
+    /*FIN VIDEOS*/
+}
